@@ -12,7 +12,6 @@ public class Proyecto_POO {
             Empleado gerenteProyecto = new GerenteProyecto("Ana", 40, 70000);
             Empleado gerenteGeneral = new GerenteGeneral("María", 45, 90000);
             Empleado gerenteRH = new GerenteRecursosHumanos("Pedro", 38, 65000);
-            Empleado administrativo = new Administrativo("Luis", 35, 30000);
             Empleado asistenteAdministrativo = new AdministrativoAsistente("Sofía", 32, 28000);
             Empleado contadorAdministrativo = new AdministrativoContador("José", 50, 40000);
             Empleado recepcionistaAdministrativo = new AdministrativoRecepcion("Marta", 29, 27000);
@@ -23,7 +22,6 @@ public class Proyecto_POO {
             empresa.agregarEmpleado(gerenteProyecto);
             empresa.agregarEmpleado(gerenteGeneral);
             empresa.agregarEmpleado(gerenteRH);
-            empresa.agregarEmpleado(administrativo);
             empresa.agregarEmpleado(asistenteAdministrativo);
             empresa.agregarEmpleado(contadorAdministrativo);
             empresa.agregarEmpleado(recepcionistaAdministrativo);
